@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 900px;
+    font-family: Arial;
+    display: block;
+    padding: 10px; 
+}
+header{
+    text-align: center;
+    font-family: Georgia;
+    margin-bottom: 10px;
+    padding: 5px 20px 20px;
+    font-size: 120%;
+
+}
+.nombre{
+    padding: 10px 0;
+    font-size: 110%;
+}
+#video{
+}
+#cuadras{
+}
+tr:nth-child(2n)>td{
+    height: 20px;
+    padding: 5px 0;
+} 
+#tabla-cuadros{
+    border-collapse: separate;
+}
+input[type="button"]{ 
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+legend{
+    margin-left: 15px;
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+canvas{
+    width: 210px;
+    height: 118px;
+    border: 1px solid grey;
+}
+footer{
+    text-align: center;
+}
+.seleccion>div img{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    margin: 0 0 10px 20px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.seleccion{
+    margin: 20px 0;
+    border: 2px solid grey;
+}
+.container{
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+}
+.text{
+    margin: 10px 0;
+}
